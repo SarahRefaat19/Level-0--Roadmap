@@ -1,378 +1,260 @@
-
-# C# .NET, Database & SQL — 3-Month Learning and Interview Plan
-
-> **6-Sprint Learning Plan** | C# Fundamentals → Database & SQL → OOP
-
-## Goal
-
-Build a strong programming foundation in C#, learn relational database design and SQL, then apply Object-Oriented Programming in a complete C# project. The plan also includes coding exercises, SQL interview practice, progress tracking, and submission guidance.
-
-## Learning Rules
-
-* Write and understand every solution. Copying a solution without understanding it is not accepted.
-* Be ready to explain submitted code or SQL queries during a session or meeting.
-* Keep solutions in clearly named folders and files.
-* Add a comment above every exercise containing its number and source.
-* Push work regularly to GitHub and update the progress tracker.
-* Recommended interview pace: **3 SQL interview questions per week**.
-
----
-
-## Updated Timeline Overview
-
-| **Sprint** | **Duration** | **Main Track** | **Focus**                                                                                             |
-| ---------- | ------------ | -------------- | ----------------------------------------------------------------------------------------------------- |
-| Sprint 1   | Week 1–2     | C#             | Setup, variables, data types, operators, conditions, console I/O                                      |
-| Sprint 2   | Week 3–4     | C#             | Loops, arrays, strings, methods, exceptions, and basic algorithms                                     |
-| Sprint 3   | Week 5–6     | Database & SQL | Database concepts, ERD, tables, keys, normalization, and CRUD                                         |
-| Sprint 4   | Week 7–8     | Database & SQL | Filtering, sorting, functions, grouping, and joins                                                    |
-| Sprint 5   | Week 9–10    | Database & SQL | Subqueries, views, indexes, transactions, procedures, and interviews                                  |
-| Sprint 6   | Week 11–12   | OOP in C#      | Classes, encapsulation, inheritance, polymorphism, abstraction, interfaces, collections, and generics |
-
----
-
-# Sprint 1 — C# Fundamentals
-
-**Duration:** Week 1–2
-
-**Goal:** Set up the development environment and write basic C# programs confidently.
-
-## Topics
-
-* Install .NET 8 SDK
-* Install Visual Studio 2022 Community or VS Code with C# Dev Kit
-* Solution and Project structure
-* Variables and data types: `int`, `double`, `decimal`, `string`, `bool`, `char`
-* Type casting and conversion
-* Arithmetic, comparison, and logical operators
-* `Console.WriteLine()` and `Console.ReadLine()`
-* Conditional statements: `if`, `else if`, `else`, `switch`
-* Ternary operator
-* Basic debugging
-
-## Required Exercises
-
-| **Topic**              | **Target** |
-| ---------------------- | ---------- |
-| Basic                  | First 50   |
-| Data Types             | All 11     |
-| Conditional Statements | All 25     |
-
----
-
-# Sprint 2 — C# Problem Solving
-
-**Duration:** Week 3–4
-
-**Goal:** Use loops, arrays, strings, methods, and exception handling to solve programming problems.
-
-## Topics
-
-* `for`, `while`, `do-while`, `foreach`
-* `break` and `continue`
-* Nested loops and patterns
-* One-dimensional and two-dimensional arrays
-* Array methods: `Sort`, `Reverse`, `Max`, `Min`
-* String methods and string interpolation
-* Methods, parameters, return types, and overloading
-* Optional and named parameters
-* Value parameters, `ref`, and `out`
-* `Math` and `DateTime`
-* Exception handling: `try`, `catch`, `finally`, `throw`
-* File handling basics
-* Linear search, binary search, bubble sort, and selection sort
-* Big-O introduction
-
-## Required Exercises
-
-| **Topic**             | **Target** |
-| --------------------- | ---------- |
-| Basic                 | 51–104     |
-| For Loop              | All 83     |
-| Array                 | All 41     |
-| String                | Minimum 20 |
-| Function              | All 10     |
-| Exception Handling    | All 13     |
-| Searching and Sorting | All 11     |
-
----
-
-# Sprint 3 — Database Foundations and SQL Basics
-
-**Duration:** Week 5–6
-
-**Goal:** Understand relational databases, design a simple schema, and write CRUD statements.
-
-## Topics
-
-* Database, DBMS, RDBMS, table, row, and column
-* Relational database model
-* Entity, attribute, and relationship
-* ERD basics and cardinality
-* Database keys: primary, foreign, candidate, composite, and unique
-* Converting an ERD into tables
-* Normalization: 1NF, 2NF, and 3NF
-* Install SQL Server and SQL Server Management Studio, or use an approved SQL playground
-* SQL data types
-* `CREATE DATABASE`, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
-* Constraints: `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `CHECK`, `DEFAULT`
-* CRUD: `INSERT`, `SELECT`, `UPDATE`, `DELETE`
-
-## Required Practice
-
-* Draw an ERD for a school database.
-* Convert the ERD into relational tables.
-* Create the database and tables using SQL.
-* Add primary keys, foreign keys, and validation constraints.
-* Insert at least 20 sample records.
-* Write CRUD queries and save them in `Sprint-03-Database-Basics.sql`.
-
-## SQL Interview Questions
-
-1. What is the difference between DBMS and RDBMS?
-2. What is the difference between a primary key and a foreign key?
-3. What is normalization, and why is it useful?
-4. Explain 1NF, 2NF, and 3NF.
-5. What is the difference between `DELETE`, `TRUNCATE`, and `DROP`?
-6. What is the difference between `CHAR` and `VARCHAR`?
-
----
-
-# Sprint 4 — SQL Querying and Joins
-
-**Duration:** Week 7–8
-
-**Goal:** Retrieve, filter, aggregate, and combine relational data.
-
-## Topics
-
-* `SELECT`, aliases, and `DISTINCT`
-* `WHERE`, comparison operators, `AND`, `OR`, `NOT`
-* `IN`, `BETWEEN`, `LIKE`, wildcards
-* `IS NULL` and `IS NOT NULL`
-* `ORDER BY`, `TOP`, and pagination basics
-* Aggregate functions: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
-* `GROUP BY` and `HAVING`
-* String, numeric, and date functions
-* `INNER JOIN`
-* `LEFT JOIN`
-* `RIGHT JOIN`
-* `FULL OUTER JOIN`
-* Self join and cross join
-* `UNION` and `UNION ALL`
-
-## Required Practice
-
-* Write ten filtering and sorting queries.
-* Write five aggregate queries.
-* Write five `GROUP BY` and `HAVING` queries.
-* Write queries using each required join type.
-* Find records missing a related row using `LEFT JOIN`.
-* Save the work in `Sprint-04-SQL-Queries.sql`.
-
-## SQL Interview Questions
-
-1. What is the difference between `WHERE` and `HAVING`?
-2. What is the difference between `COUNT(*)` and `COUNT(column)`?
-3. What is the difference between `INNER JOIN` and `LEFT JOIN`?
-4. Write a query that returns the highest salary in each department.
-5. Write a query that finds customers who have not placed an order.
-6. Explain the difference between `UNION` and `UNION ALL`.
-
----
-
-# Sprint 5 — Advanced SQL and Database Project
-
-**Duration:** Week 9–10
-
-**Goal:** Use advanced SQL features and complete an interview-ready database project.
-
-## Topics
-
-* Scalar and correlated subqueries
-* `EXISTS` and `NOT EXISTS`
-* Common Table Expressions (CTEs)
-* Window functions: `ROW_NUMBER`, `RANK`, `DENSE_RANK`
-* Views
-* Indexes and query-performance basics
-* Stored procedures and user-defined functions
-* Transactions: `BEGIN`, `COMMIT`, `ROLLBACK`
-* ACID properties
-* Triggers overview
-* Database security and SQL injection awareness
-* Backup and recovery overview
-
-## Database Mini Project
-
-Build a **Student Course Registration Database** containing:
-
-* Students
-* Instructors
-* Courses
-* Departments
-* Enrollments
-* Grades
-
-### Project Requirements
-
-* ERD and normalized relational schema
-* Table-creation script with keys and constraints
-* Sample-data script
-* CRUD queries
-* Filtering and aggregate queries
-* At least four joins
-* At least two subqueries
-* One CTE
-* One view
-* One stored procedure
-* One transaction example
-* README explaining the schema and how to run the scripts
-
-## SQL Interview Questions
-
-1. What is the difference between a join and a subquery?
-2. How can duplicate rows be found?
-3. How can the second-highest salary be returned?
-4. What is an index, and what is its trade-off?
-5. What is a transaction?
-6. Explain the ACID properties.
-7. What is the difference between `ROW_NUMBER`, `RANK`, and `DENSE_RANK`?
-8. What is a CTE, and when is it useful?
-9. What is a view?
-10. How can SQL injection risk be reduced?
-
----
-
-# Sprint 6 — Object-Oriented Programming in C#
-
-**Duration:** Week 11–12
-
-**Goal:** Apply OOP principles, collections, and generics in a complete C# application connected to the knowledge gained from the database sprints.
-
-## Topics
-
-* Classes and objects
-* Fields, methods, and properties
-* Default, parameterized, and copy constructors
-* `this` keyword
-* Encapsulation and access modifiers
-* `static` members
-* Inheritance and the `base` keyword
-* Method overloading and overriding
-* `virtual`, `override`, and polymorphism
-* Abstract classes and abstract methods
-* Interfaces and multiple-interface implementation
-* `sealed` classes and methods
-* Composition versus inheritance
-* `List<T>`, `Dictionary<TKey,TValue>`, `Queue<T>`, `Stack<T>`, `HashSet<T>`
-* Generic methods, generic classes, and constraints
-* `IEnumerable<T>` basics
-* Exception handling and file persistence
-
-## Final Project — Student Management System
-
-Build a C# console application that applies the complete track:
-
-* `Person` base class
-* `Student` and `Instructor` derived classes
-* Encapsulated fields and validated properties
-* Interfaces for searchable and printable entities
-* Collections to manage students and courses
-* Generic search or repository component
-* Exception handling
-* File-based storage or optional SQL database integration
-* Reports for students, courses, enrollments, and grades
-
-## OOP Interview Questions
-
-1. What are the four pillars of OOP?
-2. What is the difference between a class and an object?
-3. What is encapsulation, and why is it useful?
-4. What is the difference between overloading and overriding?
-5. What is the difference between an abstract class and an interface?
-6. What is polymorphism? Provide a C# example.
-7. What is the difference between composition and inheritance?
-8. What is the purpose of generics?
-9. What is the difference between `List<T>` and an array?
-10. What is the difference between `Dictionary<TKey,TValue>` and `HashSet<T>`?
-
----
-
-## Recommended Repository Structure
-
-```text
-Level-0_plan-updated/
-├── README.md
-├── Sprint-01-CSharp-Fundamentals/
-├── Sprint-02-CSharp-Problem-Solving/
-├── Sprint-03-Database-Foundations/
-├── Sprint-04-SQL-Queries/
-├── Sprint-05-Advanced-SQL/
-├── Sprint-06-OOP/
-└── Projects/
-    ├── Student-Course-Database/
-    └── Student-Management-System/
-```
-
-## Progress Tracker
-
-### Sprint 1 — C# Fundamentals
-
-* Setup completed
-* Basic exercises: ___/50
-* Data Types: ___/11
-* Conditions: ___/25
-
-### Sprint 2 — C# Problem Solving
-
-* Basic exercises: ___/54
-* Loops: ___/83
-* Arrays: ___/41
-* Strings: ___/20 minimum
-* Functions: ___/10
-* Exceptions: ___/13
-* Algorithms: ___/11
-
-### Sprint 3 — Database Foundations
-
-* ERD completed
-* Normalized schema completed
-* Tables and constraints completed
-* CRUD script completed
-* SQL interview questions: ___/6
-
-### Sprint 4 — SQL Queries and Joins
-
-* Filtering and sorting queries completed
-* Aggregate queries completed
-* Joins completed
-* SQL interview questions: ___/6
-
-### Sprint 5 — Advanced SQL
-
-* Advanced SQL exercises completed
-* Student Course Registration Database completed
-* SQL interview questions: ___/10
-
-### Sprint 6 — OOP
-
-* OOP topics completed
-* Collections and generics completed
-* Student Management System completed
-* OOP interview questions: ___/10
-
----
-
-## Final Mock Interview
-
-* Explain one C# fundamentals solution without running it.
-* Solve one array or string problem in 30–40 minutes.
-* Explain time and space complexity.
-* Design a small relational database and explain the relationships.
-* Write three SQL queries, including a join, aggregation, and subquery.
-* Answer five database and five OOP questions.
-* Demonstrate the final project and explain design decisions.
-
----
-
-*C# .NET, Database & SQL Track — Level 0 | 3-Month Plan*
+Level 0 — C# .NET, OOP & Database SQL
+6 Sprints · 12 Weeks · 2 Weeks / Sprint
+Learning Order: C# Basics → OOP → Database & SQL (+ Mock Interviews)
+Level 0 builds the programming foundation required before moving into backend development.
+Tracks: C# Basics · Object-Oriented Programming · Database & SQL
+Learning Flow: C# Syntax & Fundamentals → OOP & Object Modeling → Database Concepts & Design → SQL & Data Retrieval → Advanced SQL & Performance → Mock Interviews
+Sprint Overview
+Sprint
+Weeks
+Track
+Focus
+01
+1–2
+C# Basics
+.NET, C#, variables, data types, conversion, operators, strings, conditions, loops, debugging
+02
+3–4
+C# Basics
+Arrays, methods, parameter passing, useful types, nullable, exceptions
+03
+5–6
+OOP
+Classes, constructors, encapsulation, inheritance, polymorphism, abstraction, interfaces, advanced OOP
+04
+7–8
+Database & SQL
+Database concepts, ERD, keys, normalization, DDL, DML, basic DQL
+05
+9–10
+Database & SQL
+Aggregates, functions, grouping, joins, query execution order
+06
+11–12
+Database & SQL + Mock Interviews
+Set operators, subqueries, window functions, CTE, views, indexes, stored procedures, triggers, transactions, mock interviews
+Learning Rules
+• Watch the assigned resource before practicing the topic.
+• Write every solution yourself.
+• Understand every submitted solution.
+• Add the exercise number, source, and link above each exercise.
+• Keep solutions organized according to the repository structure.
+• Push work regularly.
+• Update the progress tracker after completing each section.
+• Be ready to explain any submitted code or SQL query.
+• LeetCode is used for SQL practice only.
+• Review wrong answers before moving forward.
+لا
+Sprint 01 — C# Foundations
+Weeks: 1–2
+Topics
+• 01 — .NET & C#: What is .NET? What is C#? .NET Runtime & CLR, compilation process (source → IL → JIT), C# program structure, Main() and top-level statements, namespaces & using, Console Application, Solution vs Project, dotnet CLI basics, naming conventions, comments.
+• 02 — Variables & Data Types: Declaring variables, value types vs reference types, stack vs heap (overview), integer types and their ranges, floating-point types, decimal, char, bool, string, object, var, dynamic (basic awareness), default values, literals, constants, overflow and checked/unchecked.
+• 03 — Type Conversion: Implicit conversion, explicit casting, Convert, Parse, TryParse, boxing, unboxing, data loss in conversions.
+• 04 — Operators & Expressions: Arithmetic, relational, logical, bitwise, and assignment operators, increment/decrement, compound assignment, operator precedence, associativity, expressions.
+• 05 — Strings in Depth: String formatting, string interpolation, verbatim strings, escape characters, string immutability, StringBuilder, common methods (Substring, Split, Trim, Replace, Contains, IndexOf, Compare, ToUpper/ToLower), string.Join, string.IsNullOrEmpty.
+• 06 — Control Flow: if, else, else if, nested conditions, switch statement, switch expression, basic pattern matching, ternary operator.
+• 07 — Loops: for, while, do-while, foreach, nested loops, break, continue, choosing the right loop.
+• 08 — Debugging: Compile-time errors, runtime errors, logical errors, breakpoints, step into / over / out, watch window, call stack.
+Arabic Resources
+Main Course: Mastering C#.NET in Arabic — Metigator
+Topic Resources: Introduction to C#.NET · Solution and Project in C# · Variables in C# · Boolean Types and Logical Operators · Expressions in C# · Casting and Type Conversion · Debugging in C#
+Required Exercises
+Topic
+Resource
+Target
+Basic
+w3resource — C# Basic
+1–50
+Data Types
+w3resource — Data Types
+All 11
+Conditions
+w3resource — Conditional Statements
+All 25
+For Loop
+w3resource — For Loop
+All 83
+String
+w3resource — String
+Minimum 20
+Sprint 02 — C# Core Programming
+Weeks: 3–4
+Topics
+• 01 — Arrays: One-dimensional arrays, declaration & initialization, traversal, Sort, Reverse, Max, Min, IndexOf, Array.Copy, two-dimensional arrays, iterating 2D arrays, jagged arrays, 2D array vs jagged array.
+• 02 — Methods: Method declaration, method signature, parameters, return types, calling methods, method overloading, optional parameters, named parameters, params, expression-bodied methods, local functions.
+• 03 — Parameter Passing: Passing by value, passing reference types, ref, out, in (basic awareness), value vs reference semantics.
+• 04 — Useful Types: Math, DateTime, TimeSpan, Enum, Struct (overview), discards (_), numeric literals, Random.
+• 05 — Nullable Types: Nullable value types, T?, Nullable<T>, null checking, ??, ??=, ?.
+• 06 — Exception Handling: Exceptions, try, catch (multiple catch blocks), finally, throw, exception types, custom exceptions, exception best practices.
+Arabic Resources
+Arrays in C# · Methods and Passing by Value/Reference · Exceptions in C# · Struct in C# · Enums in C#
+Required Exercises
+Topic
+Resource
+Target
+Basic
+w3resource — C# Basic
+51–104
+Array
+w3resource — Array
+All 41
+Function
+w3resource — Function
+All 10
+Exceptions
+w3resource — Exception Handling
+All 13
+Sprint 03 — Object-Oriented Programming
+Weeks: 5–6
+Topics
+• 01 — Programming Paradigms: Procedural, object-oriented, functional, and event-driven programming. What is OOP and why it matters.
+• 02 — Classes & Objects: What is a class? What is an object? Class members (fields, methods, properties), object creation, object initialization.
+• 03 — Constructors: Default, parameterized, copy, and static constructors, constructor overloading.
+• 04 — this: this, instance members, constructor chaining.
+• 05 — Access Modifiers: public, private, protected, internal, protected internal, private protected.
+• 06 — Struct: Struct vs class, value type behavior, struct constructors, when to use struct.
+• 07 — Encapsulation & Properties: Encapsulation, fields vs properties, get, set, init, read-only properties.
+• 08 — Static: Static fields, methods, properties, classes, constructors.
+• 09 — Constants & Readonly: const, readonly, static readonly.
+• 10 — Object Class: System.Object, ToString(), Equals(), GetHashCode(), GetType().
+• 11 — Relationships: Association, aggregation, composition, Has-A, Is-A.
+• 12 — Inheritance: Base class, derived class, base, constructor execution, multilevel inheritance.
+• 13 — Polymorphism: Compile-time polymorphism (overloading), runtime polymorphism (overriding), virtual, override.
+• 14 — Binding: Early binding, late binding, binding practice.
+• 15 — Abstraction: Abstract class, abstract methods, abstract properties.
+• 16 — Interfaces: Why interfaces? Multiple interfaces, implicit vs explicit implementation, built-in interfaces, abstract class vs interface.
+• 17 — Advanced Class Features: sealed, partial, operator overloading, user-defined casting operators, extension methods.
+• 18 — Copying Objects: Reference copy, shallow copy, deep copy.
+• 19 — .NET Structure: Solution, project, assembly, namespace, class library.
+Resources
+Mastering C#.NET in Arabic — Metigator: Fields and Constants · Methods · Constructors · Properties · Inheritance · Interfaces · Generics · Enumerators and Iterators
+Exercises
+Practice each of the following:
+• Create a Student class with fields, properties, and multiple constructors
+• Access modifiers and encapsulation
+• Static members
+• Class vs struct
+• Inheritance
+• Overloading and overriding
+• Polymorphism
+• Abstract classes
+• Interfaces and explicit interface implementation
+• Composition
+• Shallow vs deep copy
+• Extension methods
+• Operator overloading
+Project
+Project 01 — Student Management System (see Projects below).
+Sprint 04 — Database Foundations & SQL Basics
+Weeks: 7–8
+Topics
+• 01 — Database Fundamentals: Data, database, before databases, database advantages, DBMS, RDBMS, relational vs non-relational.
+• 02 — Relational Model: Tables, rows, columns, entities, attributes, relationships, cardinality.
+• 03 — Database Design: Requirements, ERD, entities & attributes, relationships, cardinality, primary key, foreign key, candidate key, composite key, unique key, ERD → tables.
+• 04 — Normalization: 1NF, 2NF, 3NF.
+• 05 — SQL & SQL Server: What is SQL? SQL vs database, SQL vs SQL Server, database providers, SQL Server components, SSMS, database, schema, table.
+• 06 — SQL Categories: DDL, DML, DQL, DCL, TCL.
+• 07 — SQL Fundamentals: Comments, variables, data types, NULL, identity, aliases.
+• 08 — DDL: CREATE DATABASE, CREATE TABLE, ALTER TABLE, DROP TABLE.
+• 09 — Constraints & Integrity: PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT, referential integrity and its rules.
+• 10 — DML: INSERT, UPDATE, DELETE, TRUNCATE.
+• 11 — Basic DQL: SELECT, DISTINCT, WHERE, comparison operators, AND, OR, NOT, IN, BETWEEN, LIKE, wildcards, IS NULL, IS NOT NULL, ORDER BY, TOP, pagination basics.
+Resources
+• Database and SQL Course in Arabic — Ahmed El-Gendy
+• SQL Course for Beginners in Arabic
+• SQL and MySQL Tutorial in Arabic — Coder Shiyar
+Required Exercises
+Database Design: School ERD · Mapping ERD → tables · Normalize to 3NF · Create database · Create tables · Add constraints · Insert sample data · CRUD script
+LeetCode SQL — Easy (14 problems)
+1. Recyclable and Low Fat Products
+2. Find Customer Referee
+3. Big Countries
+4. Article Views I
+5. Invalid Tweets
+6. Not Boring Movies
+7. Triangle Judgement
+8. Swap Salary
+9. Patients With a Condition
+10. Calculate Special Bonus
+11. Immediate Food Delivery I
+12. The Number of Rich Customers
+13. Find Customers With Positive Revenue this Year
+14. The Number of Users That Are Eligible for Discount
+Sprint 05 — SQL Querying: Aggregates, Functions & Joins
+Weeks: 9–10
+Topics
+• 01 — Aggregate Functions: COUNT, SUM, AVG, MIN, MAX, COUNT(*) vs COUNT(column).
+• 02 — SQL Functions: String, numeric, and date & time functions, CAST, CONVERT, TRY_CAST, TRY_CONVERT, CASE, ISNULL, COALESCE.
+• 03 — Grouping: GROUP BY, HAVING, WHERE vs HAVING.
+• 04 — Joins: INNER, LEFT, RIGHT, FULL OUTER, self join, cross join, joining multiple tables.
+• 05 — Query Execution Order: FROM → JOIN → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → TOP.
+Resources
+• SQL Beginner to Advanced in Arabic
+• Learn SQL in 6 Hours — Arabic
+Required SQL Exercises
+Filtering & sorting · Aggregate functions · GROUP BY / HAVING · SQL functions · Joins
+LeetCode SQL — Easy (31 problems)
+Aggregation & Grouping
+15. User Activity for the Past 30 Days I
+16. Daily Leads and Partners
+17. Group Sold Products By The Date
+18. The Latest Login in 2020
+19. Biggest Single Number
+20. Classes More Than 5 Students
+21. Duplicate Emails
+22. Find Total Time Spent by Each Employee
+23. Number of Unique Subjects Taught by Each Teacher
+24. Find Followers Count
+25. Game Play Analysis I
+26. Sales Analysis III
+27. Percentage of Users Attended a Contest
+28. Queries Quality and Percentage
+29. Average Selling Price
+30. Average Time of Process per Machine
+31. Actors and Directors Who Cooperated At Least Three Times
+32. Project Employees I
+Functions & Reshaping
+33. Reformat Department Table
+34. Rearrange Products Table
+35. Fix Names in a Table
+36. Concatenate the Name and the Profession
+Joins
+37. Combine Two Tables
+38. Employees Earning More Than Their Managers
+39. Customers Who Never Order
+40. Rising Temperature
+41. Employee Bonus
+42. Replace Employee ID With The Unique Identifier
+43. Product Sales Analysis I
+44. Customer Who Visited but Did Not Make Any Transactions
+45. Students and Examinations
+Sprint 06 — Advanced SQL & Mock Interviews
+Weeks: 11–12
+Topics
+• 01 — Set Operators: UNION, UNION ALL, INTERSECT, EXCEPT.
+• 02 — Subqueries: Single-row, multi-row, scalar, correlated, EXISTS, NOT EXISTS.
+• 03 — Window Functions: OVER(), PARTITION BY, ROW_NUMBER(), RANK(), DENSE_RANK().
+• 04 — CTE: CTE, multiple CTEs, CTE vs subquery.
+• 05 — Views: Creating views, advantages, limitations.
+• 06 — Indexes & Performance: Clustered, non-clustered, and composite indexes, best practices, trade-offs.
+• 07 — Stored Procedures: Input parameters, output parameters, basic execution. Advanced stored procedures → Level 1.
+• 08 — Functions: Scalar-valued functions, table-valued functions, inline TVF, multi-statement TVF.
+• 09 — Triggers: DML triggers (INSERT, UPDATE, DELETE). Advanced triggers → Level 1.
+• 10 — Transactions: BEGIN TRANSACTION, COMMIT, ROLLBACK, savepoints, ACID.
+• 11 — DCL: GRANT, REVOKE, DENY, basic permissions, SQL injection awareness.
+Resources
+• SQL Beginner to Advanced in Arabic
+• SQL Course for Beginners in Arabic
+Required SQL Exercises
+Set operators · Subqueries · EXISTS / NOT EXISTS · Ranking · CTE · Views · Indexes · Stored procedures · Functions · Transactions
+LeetCode SQL — Easy (5 problems)
+46. Top Travellers
+47. Bank Account Summary II
+48. Employees With Missing Information
+49. Employees Whose Manager Left the Company
+50. Delete Duplicate Emails
+Project
+Project 02 — Student Course Registration Database (see Projects below).
+Mock Interviews
+The final mock interviews are an assessment, not another learning section. They cover C#, OOP, Database & SQL, and the two projects (see Final Mock Interview below).
